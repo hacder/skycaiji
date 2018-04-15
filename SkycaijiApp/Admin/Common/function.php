@@ -40,7 +40,7 @@ function a_c($module, $layer = 'Event')
 
 if(!function_exists('mysqli_get_server_info')){
     function mysqli_get_server_info(){
-        return 'Unkonow';
+        return 'Unknown';
     }
 }
 
@@ -48,6 +48,6 @@ if(!function_exists('mysqli_get_server_info')){
 if (!function_exists('mysql_get_server_info')) {
     function mysql_get_server_info()
     {
-        return 'Unkonow';
+        return 'Unknown';
     }
 }
